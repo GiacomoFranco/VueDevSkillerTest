@@ -1,0 +1,59 @@
+test-results.xml
+
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+### *** required entries below ***
+###
+### Please do not add anything below this line, your changes will be overwritten
+###
+*.iws
+*.launch
+.externalToolBuilders/
+__MACOSX/
+.idea/
+.nb-gradle/
+.project
+.settings/
+.history/
+atlassian-ide-plugin.xml
+nbactions.xml
+nbbuild/
+nbdist/
+nbproject/private/
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/490Fgg6uPJedVf4qVGHhl7
+!.vscode/extensions.json
+*.code-workspace
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+.npm-debug.log
+tmp
